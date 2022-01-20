@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/OSPCGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <RadioButton
+            android:id="@+id/WindowsButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/CheckedPC"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:text="@string/windowsradiobutton"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:id="@+id/UbuntuButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/UnCheckedPC"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:text="@string/ubunturadiobutton"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/OSPhoneGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@+id/guideline3">
+
+        <RadioButton
+            android:id="@+id/AndroidButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/CheckedPhone"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:text="@string/androidbutton"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:id="@+id/AppleButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/phone_border"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:text="@string/iosbutton"
+            android:textAlignment="center"
+            android:textColor="@color/CheckedPhone"
+            tools:ignore="TextContrastCheck" />
+
+        <RadioButton
+            android:id="@+id/SymbiamButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/phone_border"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:text="@string/symbiambutton"
+            android:textAlignment="center"
+            android:textColor="@color/CheckedPhone"
+            tools:ignore="TextContrastCheck" />
+    </RadioGroup>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <Button
+        android:id="@+id/btnRateBars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Ir al Ejercicio RateBars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

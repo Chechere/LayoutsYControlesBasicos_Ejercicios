@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LayoutYControles</string>
+    <string name="windowsradiobutton">Windows</string>
+    <string name="ubunturadiobutton">Ubuntu</string>
+    <string name="androidbutton">Android</string>
+    <string name="iosbutton">iOS</string>
+    <string name="symbiambutton">Symbiam</string>
+</resources>

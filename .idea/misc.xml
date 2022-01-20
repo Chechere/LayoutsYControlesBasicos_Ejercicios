@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/drawable/balon_rating.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/drawable/corazon_rating.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/drawable/gradient.xml" value="0.22" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/drawable/phone_border.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/layout/animaciones.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/layout/grid_gradient.xml" value="0.33" />
+        <entry key="..\:/Users/alu/AndroidStudioProjects/LayoutYControles/app/src/main/res/layout/ratebars.xml" value="0.44715447154471544" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
